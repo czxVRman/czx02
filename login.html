@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   <script >
+    function playVideo() {
+        var video = document.getElementById("myVideo");
+        video.play();
+    }
+
+    function pauseVideo() {
+        var video = document.getElementById("myVideo");
+        video.pause();
+    }
+
+    function stopVideo() {
+        var video = document.getElementById("myVideo");
+        video.pause();
+        video.currentTime = 0;
+    }
+   </script>
+</head>
+<body>
+    <div class="resume">
+        <h1>个人简历</h1>
+        <div class="basic-info">
+            <h2>基本信息</h2>
+            <table>
+                <tr>
+                    <td width="100" >姓名</td>
+                    <td width="100">曾晨</td>
+                </tr>
+                <tr>
+                    <td width="100">性别</td>
+                    <td width="100">男</td>
+                </tr>
+                <tr>
+                    <td width="100">出生日期</td>
+                    <td width="100">1990年1月20日</td>
+                </tr>
+                <tr>
+                    <td width="100">籍贯</td>
+                    <td width="100">北京</td>
+                </tr>
+            </table>
+<!--            <p>姓名: 曾晨</p>
+            <p>性别: 男</p>
+            <p>出生日期: 1990年1月1日</p>
+            <p>籍贯: 北京</p>
+            -->
+        </div>
+        <div class="education">
+            <h2>教育经历</h2>
+            <table>
+                <tr>
+                    <th>时间</th>
+                    <th>学校</th>
+                    <th>学位</th>
+                </tr>
+                <tr>
+                    <td>2008-2012</td>
+                    <td>北京大学</td>
+                    <td>本科</td>
+                </tr>
+                <tr>
+                    <td>2012-2016</td>
+                    <td>清华大学</td>
+                    <td>硕士</td>
+                </tr>
+            </table>
+        </div>
+        <div class="work-experience">
+            <h2>工作经历</h2>
+            <table>
+                <tr>
+                    <th>时间</th>
+                    <th>地点</th>
+                    <th>职位</th>
+                </tr>
+                <tr>
+                    <td>2016-2018</td>
+                    <td>某公司</td>
+                    <td>软件工程师</td>
+                </tr>
+                <tr>
+                    <td>2018-2020</td>
+                    <td>C公司</td>
+                    <td>项目经理</td>
+                </tr>
+            </table>
+        </div>
+        <div class="skills">
+            <h2>技能</h2>
+            <table>
+                <tr><td>Java</td></tr>
+                <tr><td>Python</td></tr>
+                <tr><td>Html/Css</td></tr>
+            </table>
+            
+        </div>
+        <div class="myVideoClass">
+            <h2>视频</h2>
+            <table>
+                <tr>
+                    <video id="myVideo" width="320" height="240" controls>
+                        <source src="Video/VID_20241008_201445.mp4" type="video/mp4">        
+                    </video>
+                </tr>
+            </table>
+            
+                <button onclick="playVideo()">播放</button>
+                <button onclick="pauseVideo()">暂停</button>
+                <button onclick="stopVideo()">停止</button>
+            </div>
+    </div>
+</body>
+</html>

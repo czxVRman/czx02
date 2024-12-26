@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.resume {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.resume h1 {
+    text-align: center;
+}
+
+.resume h2 {
+    margin-top: 20px;
+}
+
+.resume table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resume table th, .resume table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.resume table th {
+    background-color: #4984c7;
+}
+
+.resume ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.resume ul li {
+    margin-bottom: 5px;
+}
+
+.basic-info {
+    width: 300px;
+    
+}
+
+.education ,.work-experience,.skills {
+    width: 1000px;
+    
+}
